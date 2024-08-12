@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F384F85D2C63632E00FE68FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F384F85C2C63632E00FE68FF /* AppDelegate.m */; };
+		F384F8602C63632E00FE68FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F384F85F2C63632E00FE68FF /* ViewController.m */; };
+		F384F8622C63632F00FE68FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F384F8612C63632F00FE68FF /* Assets.xcassets */; };
+		F384F8652C63632F00FE68FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F384F8642C63632F00FE68FF /* Base */; };
+		F384F8672C63632F00FE68FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F384F8662C63632F00FE68FF /* main.m */; };
+		F384F8722C63662B00FE68FF /* VTMUncompressUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F384F8712C63662B00FE68FF /* VTMUncompressUtils.m */; };
+		F384F8752C63670F00FE68FF /* VTMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F384F8742C63670F00FE68FF /* VTMFileManager.m */; };
+		F384F87B2C636BE500FE68FF /* 20240418104759 in Resources */ = {isa = PBXBuildFile; fileRef = F384F87A2C636BE500FE68FF /* 20240418104759 */; };
+		F384F87D2C6372D900FE68FF /* 20240419175643 in Resources */ = {isa = PBXBuildFile; fileRef = F384F87C2C6372D800FE68FF /* 20240419175643 */; };
+		F3D7D5C22C6A082400F2851E /* VTBLEUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D7D5C12C6A082400F2851E /* VTBLEUtils.xcframework */; };
+		F3D7D5C42C6A083500F2851E /* VTBLEUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D7D5C32C6A083500F2851E /* VTBLEUtils.xcframework */; };
+		F3E199C52C64A0B4006167CA /* VTRecordEcgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E199C42C64A0B4006167CA /* VTRecordEcgController.swift */; };
+		F3E199C72C64A0CB006167CA /* VTRecordEcgWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E199C62C64A0CB006167CA /* VTRecordEcgWave.swift */; };
+		F3E51CBA2C65AAD40068FEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CB92C65AAD40068FEF9 /* AppDelegate.m */; };
+		F3E51CBD2C65AAD40068FEF9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CBC2C65AAD40068FEF9 /* SceneDelegate.m */; };
+		F3E51CC02C65AAD40068FEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CBF2C65AAD40068FEF9 /* ViewController.m */; };
+		F3E51CC32C65AAD40068FEF9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F3E51CC22C65AAD40068FEF9 /* Base */; };
+		F3E51CC52C65AAD50068FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E51CC42C65AAD50068FEF9 /* Assets.xcassets */; };
+		F3E51CC82C65AAD50068FEF9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F3E51CC72C65AAD50068FEF9 /* Base */; };
+		F3E51CCB2C65AAD50068FEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CCA2C65AAD50068FEF9 /* main.m */; };
+		F3E51CD52C65AE2A0068FEF9 /* VTRecordEcgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CD42C65AE2A0068FEF9 /* VTRecordEcgController.swift */; };
+		F3E51CD72C65AE590068FEF9 /* VTRecordEcgWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CD62C65AE590068FEF9 /* VTRecordEcgWave.swift */; };
+		F3E51CDC2C65AEB00068FEF9 /* 20240419175643 in Resources */ = {isa = PBXBuildFile; fileRef = F3E51CDA2C65AEB00068FEF9 /* 20240419175643 */; };
+		F3E51CDD2C65AEB00068FEF9 /* 20240418104759 in Resources */ = {isa = PBXBuildFile; fileRef = F3E51CDB2C65AEB00068FEF9 /* 20240418104759 */; };
+		F3E51CE02C65AEDB0068FEF9 /* VTMUncompressUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CDF2C65AEDB0068FEF9 /* VTMUncompressUtils.m */; };
+		F3E51CE32C65AEF00068FEF9 /* VTMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E51CE22C65AEF00068FEF9 /* VTMFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F384F8582C63632E00FE68FF /* UncompressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UncompressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F384F85B2C63632E00FE68FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F384F85C2C63632E00FE68FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F384F85E2C63632E00FE68FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F384F85F2C63632E00FE68FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F384F8612C63632F00FE68FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F384F8642C63632F00FE68FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F384F8662C63632F00FE68FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F384F8682C63632F00FE68FF /* UncompressDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UncompressDemo.entitlements; sourceTree = "<group>"; };
+		F384F8702C63662B00FE68FF /* VTMUncompressUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTMUncompressUtils.h; sourceTree = "<group>"; };
+		F384F8712C63662B00FE68FF /* VTMUncompressUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTMUncompressUtils.m; sourceTree = "<group>"; };
+		F384F8732C63670F00FE68FF /* VTMFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTMFileManager.h; sourceTree = "<group>"; };
+		F384F8742C63670F00FE68FF /* VTMFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTMFileManager.m; sourceTree = "<group>"; };
+		F384F87A2C636BE500FE68FF /* 20240418104759 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20240418104759; sourceTree = "<group>"; };
+		F384F87C2C6372D800FE68FF /* 20240419175643 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20240419175643; sourceTree = "<group>"; };
+		F3D7D5C12C6A082400F2851E /* VTBLEUtils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VTBLEUtils.xcframework; sourceTree = SOURCE_ROOT; };
+		F3D7D5C32C6A083500F2851E /* VTBLEUtils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VTBLEUtils.xcframework; sourceTree = SOURCE_ROOT; };
+		F3E199C32C64A0B4006167CA /* UncompressDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UncompressDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3E199C42C64A0B4006167CA /* VTRecordEcgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTRecordEcgController.swift; sourceTree = "<group>"; };
+		F3E199C62C64A0CB006167CA /* VTRecordEcgWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTRecordEcgWave.swift; sourceTree = "<group>"; };
+		F3E51CB62C65AAD40068FEF9 /* UncompressDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UncompressDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E51CB82C65AAD40068FEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3E51CB92C65AAD40068FEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3E51CBB2C65AAD40068FEF9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F3E51CBC2C65AAD40068FEF9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F3E51CBE2C65AAD40068FEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3E51CBF2C65AAD40068FEF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3E51CC22C65AAD40068FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3E51CC42C65AAD50068FEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E51CC72C65AAD50068FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E51CC92C65AAD50068FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E51CCA2C65AAD50068FEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3E51CD32C65AE2A0068FEF9 /* UncompressDemo-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UncompressDemo-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3E51CD42C65AE2A0068FEF9 /* VTRecordEcgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTRecordEcgController.swift; sourceTree = "<group>"; };
+		F3E51CD62C65AE590068FEF9 /* VTRecordEcgWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTRecordEcgWave.swift; sourceTree = "<group>"; };
+		F3E51CDA2C65AEB00068FEF9 /* 20240419175643 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20240419175643; sourceTree = "<group>"; };
+		F3E51CDB2C65AEB00068FEF9 /* 20240418104759 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20240418104759; sourceTree = "<group>"; };
+		F3E51CDE2C65AEDB0068FEF9 /* VTMUncompressUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTMUncompressUtils.h; sourceTree = "<group>"; };
+		F3E51CDF2C65AEDB0068FEF9 /* VTMUncompressUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTMUncompressUtils.m; sourceTree = "<group>"; };
+		F3E51CE12C65AEF00068FEF9 /* VTMFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTMFileManager.h; sourceTree = "<group>"; };
+		F3E51CE22C65AEF00068FEF9 /* VTMFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTMFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F384F8552C63632E00FE68FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D7D5C42C6A083500F2851E /* VTBLEUtils.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E51CB32C65AAD40068FEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D7D5C22C6A082400F2851E /* VTBLEUtils.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F384F84F2C63632E00FE68FF = {
+			isa = PBXGroup;
+			children = (
+				F384F85A2C63632E00FE68FF /* UncompressDemo */,
+				F3E51CB72C65AAD40068FEF9 /* UncompressDemo-iOS */,
+				F384F8592C63632E00FE68FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F384F8592C63632E00FE68FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F384F8582C63632E00FE68FF /* UncompressDemo.app */,
+				F3E51CB62C65AAD40068FEF9 /* UncompressDemo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F384F85A2C63632E00FE68FF /* UncompressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F384F85B2C63632E00FE68FF /* AppDelegate.h */,
+				F384F85C2C63632E00FE68FF /* AppDelegate.m */,
+				F384F85E2C63632E00FE68FF /* ViewController.h */,
+				F384F85F2C63632E00FE68FF /* ViewController.m */,
+				F3E199C42C64A0B4006167CA /* VTRecordEcgController.swift */,
+				F3E199C62C64A0CB006167CA /* VTRecordEcgWave.swift */,
+				F384F8702C63662B00FE68FF /* VTMUncompressUtils.h */,
+				F384F8712C63662B00FE68FF /* VTMUncompressUtils.m */,
+				F384F8732C63670F00FE68FF /* VTMFileManager.h */,
+				F384F8742C63670F00FE68FF /* VTMFileManager.m */,
+				F384F87C2C6372D800FE68FF /* 20240419175643 */,
+				F384F87A2C636BE500FE68FF /* 20240418104759 */,
+				F3D7D5C32C6A083500F2851E /* VTBLEUtils.xcframework */,
+				F384F8612C63632F00FE68FF /* Assets.xcassets */,
+				F384F8632C63632F00FE68FF /* Main.storyboard */,
+				F384F8662C63632F00FE68FF /* main.m */,
+				F384F8682C63632F00FE68FF /* UncompressDemo.entitlements */,
+				F3E199C32C64A0B4006167CA /* UncompressDemo-Bridging-Header.h */,
+			);
+			path = UncompressDemo;
+			sourceTree = "<group>";
+		};
+		F3E51CB72C65AAD40068FEF9 /* UncompressDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3E51CB82C65AAD40068FEF9 /* AppDelegate.h */,
+				F3E51CB92C65AAD40068FEF9 /* AppDelegate.m */,
+				F3E51CBB2C65AAD40068FEF9 /* SceneDelegate.h */,
+				F3E51CBC2C65AAD40068FEF9 /* SceneDelegate.m */,
+				F3E51CBE2C65AAD40068FEF9 /* ViewController.h */,
+				F3E51CBF2C65AAD40068FEF9 /* ViewController.m */,
+				F3E51CD42C65AE2A0068FEF9 /* VTRecordEcgController.swift */,
+				F3E51CD62C65AE590068FEF9 /* VTRecordEcgWave.swift */,
+				F3E51CDE2C65AEDB0068FEF9 /* VTMUncompressUtils.h */,
+				F3E51CDF2C65AEDB0068FEF9 /* VTMUncompressUtils.m */,
+				F3E51CE12C65AEF00068FEF9 /* VTMFileManager.h */,
+				F3E51CE22C65AEF00068FEF9 /* VTMFileManager.m */,
+				F3E51CDB2C65AEB00068FEF9 /* 20240418104759 */,
+				F3E51CDA2C65AEB00068FEF9 /* 20240419175643 */,
+				F3D7D5C12C6A082400F2851E /* VTBLEUtils.xcframework */,
+				F3E51CC12C65AAD40068FEF9 /* Main.storyboard */,
+				F3E51CC42C65AAD50068FEF9 /* Assets.xcassets */,
+				F3E51CC62C65AAD50068FEF9 /* LaunchScreen.storyboard */,
+				F3E51CC92C65AAD50068FEF9 /* Info.plist */,
+				F3E51CCA2C65AAD50068FEF9 /* main.m */,
+				F3E51CD32C65AE2A0068FEF9 /* UncompressDemo-iOS-Bridging-Header.h */,
+			);
+			path = "UncompressDemo-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F384F8572C63632E00FE68FF /* UncompressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F384F86B2C63632F00FE68FF /* Build configuration list for PBXNativeTarget "UncompressDemo" */;
+			buildPhases = (
+				F384F8542C63632E00FE68FF /* Sources */,
+				F384F8552C63632E00FE68FF /* Frameworks */,
+				F384F8562C63632E00FE68FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UncompressDemo;
+			productName = UncompressDemo;
+			productReference = F384F8582C63632E00FE68FF /* UncompressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3E51CB52C65AAD40068FEF9 /* UncompressDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E51CCC2C65AAD50068FEF9 /* Build configuration list for PBXNativeTarget "UncompressDemo-iOS" */;
+			buildPhases = (
+				F3E51CB22C65AAD40068FEF9 /* Sources */,
+				F3E51CB32C65AAD40068FEF9 /* Frameworks */,
+				F3E51CB42C65AAD40068FEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UncompressDemo-iOS";
+			productName = "UncompressDemo-iOS";
+			productReference = F3E51CB62C65AAD40068FEF9 /* UncompressDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F384F8502C63632E00FE68FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F384F8572C63632E00FE68FF = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					F3E51CB52C65AAD40068FEF9 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = F384F8532C63632E00FE68FF /* Build configuration list for PBXProject "UncompressDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F384F84F2C63632E00FE68FF;
+			productRefGroup = F384F8592C63632E00FE68FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F384F8572C63632E00FE68FF /* UncompressDemo */,
+				F3E51CB52C65AAD40068FEF9 /* UncompressDemo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F384F8562C63632E00FE68FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F384F87B2C636BE500FE68FF /* 20240418104759 in Resources */,
+				F384F87D2C6372D900FE68FF /* 20240419175643 in Resources */,
+				F384F8622C63632F00FE68FF /* Assets.xcassets in Resources */,
+				F384F8652C63632F00FE68FF /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E51CB42C65AAD40068FEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E51CDD2C65AEB00068FEF9 /* 20240418104759 in Resources */,
+				F3E51CC52C65AAD50068FEF9 /* Assets.xcassets in Resources */,
+				F3E51CC82C65AAD50068FEF9 /* Base in Resources */,
+				F3E51CDC2C65AEB00068FEF9 /* 20240419175643 in Resources */,
+				F3E51CC32C65AAD40068FEF9 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F384F8542C63632E00FE68FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E199C52C64A0B4006167CA /* VTRecordEcgController.swift in Sources */,
+				F384F8602C63632E00FE68FF /* ViewController.m in Sources */,
+				F384F8672C63632F00FE68FF /* main.m in Sources */,
+				F384F8722C63662B00FE68FF /* VTMUncompressUtils.m in Sources */,
+				F384F85D2C63632E00FE68FF /* AppDelegate.m in Sources */,
+				F3E199C72C64A0CB006167CA /* VTRecordEcgWave.swift in Sources */,
+				F384F8752C63670F00FE68FF /* VTMFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E51CB22C65AAD40068FEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E51CC02C65AAD40068FEF9 /* ViewController.m in Sources */,
+				F3E51CD72C65AE590068FEF9 /* VTRecordEcgWave.swift in Sources */,
+				F3E51CBA2C65AAD40068FEF9 /* AppDelegate.m in Sources */,
+				F3E51CD52C65AE2A0068FEF9 /* VTRecordEcgController.swift in Sources */,
+				F3E51CCB2C65AAD50068FEF9 /* main.m in Sources */,
+				F3E51CE32C65AEF00068FEF9 /* VTMFileManager.m in Sources */,
+				F3E51CBD2C65AAD40068FEF9 /* SceneDelegate.m in Sources */,
+				F3E51CE02C65AEDB0068FEF9 /* VTMUncompressUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F384F8632C63632F00FE68FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F384F8642C63632F00FE68FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3E51CC12C65AAD40068FEF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E51CC22C65AAD40068FEF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3E51CC62C65AAD50068FEF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E51CC72C65AAD50068FEF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F384F8692C63632F00FE68FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F384F86A2C63632F00FE68FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F384F86C2C63632F00FE68FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = UncompressDemo/UncompressDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84Z5TBSNUY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UncompressDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viatom.UncompressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UncompressDemo/UncompressDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F384F86D2C63632F00FE68FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = UncompressDemo/UncompressDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84Z5TBSNUY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UncompressDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viatom.UncompressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UncompressDemo/UncompressDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F3E51CCD2C65AAD50068FEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84Z5TBSNUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UncompressDemo-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viatom.UncompressDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UncompressDemo-iOS/UncompressDemo-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E51CCE2C65AAD50068FEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84Z5TBSNUY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UncompressDemo-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viatom.UncompressDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UncompressDemo-iOS/UncompressDemo-iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F384F8532C63632E00FE68FF /* Build configuration list for PBXProject "UncompressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F384F8692C63632F00FE68FF /* Debug */,
+				F384F86A2C63632F00FE68FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F384F86B2C63632F00FE68FF /* Build configuration list for PBXNativeTarget "UncompressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F384F86C2C63632F00FE68FF /* Debug */,
+				F384F86D2C63632F00FE68FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E51CCC2C65AAD50068FEF9 /* Build configuration list for PBXNativeTarget "UncompressDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E51CCD2C65AAD50068FEF9 /* Debug */,
+				F3E51CCE2C65AAD50068FEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F384F8502C63632E00FE68FF /* Project object */;
+}

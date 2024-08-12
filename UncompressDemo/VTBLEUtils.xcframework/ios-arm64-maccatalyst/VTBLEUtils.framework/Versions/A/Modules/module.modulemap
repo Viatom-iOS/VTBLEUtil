@@ -1,0 +1,6 @@
+framework module VTBLEUtils {
+  umbrella header "VTBLEUtils.h"
+  export *
+
+  module * { export * }
+}
